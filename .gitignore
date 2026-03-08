@@ -19,3 +19,6 @@ benchmarks/graphs
 # Envs
 .env
 .env.dev
+
+# Dists
+dist/
