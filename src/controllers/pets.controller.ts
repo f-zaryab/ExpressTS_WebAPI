@@ -55,6 +55,8 @@ const getPetById = (
   req: Request<{ id: string }>,
   res: Response<{ data: Pet } | { message: string }>,
 ): void => {
+  console.log("In Controller now...");
+
   const { id } = req.params;
   const pet = pets.find((pet) => pet.id === Number(id));
 
